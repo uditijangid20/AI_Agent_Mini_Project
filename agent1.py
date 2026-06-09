@@ -18,6 +18,8 @@ Reply ONE word (software_a/software_b/software_c/stop). Reply 'stop' at iteratio
     )
     return response["message"]["content"].strip().lower().split()[0]
 
+print("welcome to the AI number Agent!")
+print("Powered by Ollama and Gemma")
 def run_agent():
     number = float(input("Enter a starting number: "))
     iteration = 0
