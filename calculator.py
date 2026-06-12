@@ -14,4 +14,3 @@ def divide(a, b):
 
 result = divide(10, 0)   # This will crash at runtime
 print(result)
-print("Namaste")
