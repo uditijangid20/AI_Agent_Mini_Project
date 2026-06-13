@@ -14,4 +14,3 @@ def register_new_user(name, email):
 
 add_user_to_list("Alice", "alice@test.com")
 register_new_user("Bob", "bob@test.com")
-print("thankyou for your response")
